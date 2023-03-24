@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct FlowerLand__pet_App: App {
+struct FlowerLand_pet_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(FlowerModel())
         }
     }
 }

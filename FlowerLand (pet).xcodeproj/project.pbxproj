@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A8F2F3529CBB77B005F1ADC /* FlowerLand__pet_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F3429CBB77B005F1ADC /* FlowerLand__pet_App.swift */; };
-		1A8F2F3729CBB77B005F1ADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F3629CBB77B005F1ADC /* ContentView.swift */; };
+		1A8F2F3529CBB77B005F1ADC /* FlowerLand_pet_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F3429CBB77B005F1ADC /* FlowerLand_pet_App.swift */; };
+		1A8F2F3729CBB77B005F1ADC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F3629CBB77B005F1ADC /* HomeView.swift */; };
 		1A8F2F3929CBB77E005F1ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8F2F3829CBB77E005F1ADC /* Assets.xcassets */; };
 		1A8F2F3C29CBB77E005F1ADC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8F2F3B29CBB77E005F1ADC /* Preview Assets.xcassets */; };
+		1A8F2F4729CBB8EC005F1ADC /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A8F2F4629CBB8EC005F1ADC /* Data.json */; };
+		1A8F2F4929CBB90E005F1ADC /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F4829CBB90E005F1ADC /* Flower.swift */; };
+		1A8F2F4B29CBB9A8005F1ADC /* FlowerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F4A29CBB9A8005F1ADC /* FlowerModel.swift */; };
+		1A8F2F4D29CBC350005F1ADC /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F4C29CBC350005F1ADC /* HomeViewRow.swift */; };
+		1A8F2F4F29CBD3D4005F1ADC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F4E29CBD3D4005F1ADC /* DetailView.swift */; };
+		1A8F2F5129CCDC24005F1ADC /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F5029CCDC24005F1ADC /* ImageSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A8F2F3129CBB77B005F1ADC /* FlowerLand (pet).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlowerLand (pet).app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A8F2F3429CBB77B005F1ADC /* FlowerLand__pet_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerLand__pet_App.swift; sourceTree = "<group>"; };
-		1A8F2F3629CBB77B005F1ADC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A8F2F3429CBB77B005F1ADC /* FlowerLand_pet_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerLand_pet_App.swift; sourceTree = "<group>"; };
+		1A8F2F3629CBB77B005F1ADC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1A8F2F3829CBB77E005F1ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A8F2F3B29CBB77E005F1ADC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A8F2F4629CBB8EC005F1ADC /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Data.json; path = ../../../../Downloads/Data.json; sourceTree = "<group>"; };
+		1A8F2F4829CBB90E005F1ADC /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		1A8F2F4A29CBB9A8005F1ADC /* FlowerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerModel.swift; sourceTree = "<group>"; };
+		1A8F2F4C29CBC350005F1ADC /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		1A8F2F4E29CBD3D4005F1ADC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1A8F2F5029CCDC24005F1ADC /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,11 @@
 		1A8F2F3329CBB77B005F1ADC /* FlowerLand (pet) */ = {
 			isa = PBXGroup;
 			children = (
-				1A8F2F3429CBB77B005F1ADC /* FlowerLand__pet_App.swift */,
-				1A8F2F3629CBB77B005F1ADC /* ContentView.swift */,
+				1A8F2F3429CBB77B005F1ADC /* FlowerLand_pet_App.swift */,
+				1A8F2F4229CBB7BF005F1ADC /* Views */,
+				1A8F2F4329CBB7C5005F1ADC /* ViewModels */,
+				1A8F2F4429CBB7CE005F1ADC /* Models */,
+				1A8F2F4529CBB7D4005F1ADC /* Data */,
 				1A8F2F3829CBB77E005F1ADC /* Assets.xcassets */,
 				1A8F2F3A29CBB77E005F1ADC /* Preview Content */,
 			);
@@ -65,6 +80,41 @@
 				1A8F2F3B29CBB77E005F1ADC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A8F2F4229CBB7BF005F1ADC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A8F2F3629CBB77B005F1ADC /* HomeView.swift */,
+				1A8F2F4C29CBC350005F1ADC /* HomeViewRow.swift */,
+				1A8F2F4E29CBD3D4005F1ADC /* DetailView.swift */,
+				1A8F2F5029CCDC24005F1ADC /* ImageSlider.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A8F2F4329CBB7C5005F1ADC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1A8F2F4A29CBB9A8005F1ADC /* FlowerModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1A8F2F4429CBB7CE005F1ADC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A8F2F4829CBB90E005F1ADC /* Flower.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A8F2F4529CBB7D4005F1ADC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1A8F2F4629CBB8EC005F1ADC /* Data.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +177,7 @@
 			files = (
 				1A8F2F3C29CBB77E005F1ADC /* Preview Assets.xcassets in Resources */,
 				1A8F2F3929CBB77E005F1ADC /* Assets.xcassets in Resources */,
+				1A8F2F4729CBB8EC005F1ADC /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8F2F3729CBB77B005F1ADC /* ContentView.swift in Sources */,
-				1A8F2F3529CBB77B005F1ADC /* FlowerLand__pet_App.swift in Sources */,
+				1A8F2F4B29CBB9A8005F1ADC /* FlowerModel.swift in Sources */,
+				1A8F2F5129CCDC24005F1ADC /* ImageSlider.swift in Sources */,
+				1A8F2F4F29CBD3D4005F1ADC /* DetailView.swift in Sources */,
+				1A8F2F4D29CBC350005F1ADC /* HomeViewRow.swift in Sources */,
+				1A8F2F3729CBB77B005F1ADC /* HomeView.swift in Sources */,
+				1A8F2F3529CBB77B005F1ADC /* FlowerLand_pet_App.swift in Sources */,
+				1A8F2F4929CBB90E005F1ADC /* Flower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
