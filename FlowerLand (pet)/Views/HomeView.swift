@@ -12,7 +12,7 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Flowerland")
+                Text("Flowerland!")
                     .font(.title)
                     .padding()
                 ScrollView {
