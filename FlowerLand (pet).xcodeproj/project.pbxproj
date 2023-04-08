@@ -17,9 +17,13 @@
 		1A8F2F4D29CBC350005F1ADC /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F4C29CBC350005F1ADC /* HomeViewRow.swift */; };
 		1A8F2F4F29CBD3D4005F1ADC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F4E29CBD3D4005F1ADC /* DetailView.swift */; };
 		1A8F2F5129CCDC24005F1ADC /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F5029CCDC24005F1ADC /* ImageSlider.swift */; };
+		1AF7CB395C2FC7E119CD808B /* Pods_FlowerLand__pet_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103AAAEBA417DDEB6514ECF4 /* Pods_FlowerLand__pet_.framework */; };
+		1AFC0E8829E2340600F7FACC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AFC0E8729E2340600F7FACC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010CA156EF00517FF739CAB1 /* Pods-FlowerLand (pet).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerLand (pet).release.xcconfig"; path = "Target Support Files/Pods-FlowerLand (pet)/Pods-FlowerLand (pet).release.xcconfig"; sourceTree = "<group>"; };
+		103AAAEBA417DDEB6514ECF4 /* Pods_FlowerLand__pet_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerLand__pet_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8F2F3129CBB77B005F1ADC /* FlowerLand (pet).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlowerLand (pet).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8F2F3429CBB77B005F1ADC /* FlowerLand_pet_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerLand_pet_App.swift; sourceTree = "<group>"; };
 		1A8F2F3629CBB77B005F1ADC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -31,6 +35,8 @@
 		1A8F2F4C29CBC350005F1ADC /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 		1A8F2F4E29CBD3D4005F1ADC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		1A8F2F5029CCDC24005F1ADC /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
+		1AFC0E8729E2340600F7FACC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A4705D616BB61485B5E7D19E /* Pods-FlowerLand (pet).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerLand (pet).debug.xcconfig"; path = "Target Support Files/Pods-FlowerLand (pet)/Pods-FlowerLand (pet).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF7CB395C2FC7E119CD808B /* Pods_FlowerLand__pet_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +56,8 @@
 			children = (
 				1A8F2F3329CBB77B005F1ADC /* FlowerLand (pet) */,
 				1A8F2F3229CBB77B005F1ADC /* Products */,
+				B2988DFA79292BBC8548A53C /* Pods */,
+				DCEA53212BB1C366F9607BEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +79,7 @@
 				1A8F2F4529CBB7D4005F1ADC /* Data */,
 				1A8F2F3829CBB77E005F1ADC /* Assets.xcassets */,
 				1A8F2F3A29CBB77E005F1ADC /* Preview Content */,
+				1AFC0E8729E2340600F7FACC /* GoogleService-Info.plist */,
 			);
 			path = "FlowerLand (pet)";
 			sourceTree = "<group>";
@@ -117,6 +127,23 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		B2988DFA79292BBC8548A53C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4705D616BB61485B5E7D19E /* Pods-FlowerLand (pet).debug.xcconfig */,
+				010CA156EF00517FF739CAB1 /* Pods-FlowerLand (pet).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCEA53212BB1C366F9607BEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				103AAAEBA417DDEB6514ECF4 /* Pods_FlowerLand__pet_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A8F2F3F29CBB77E005F1ADC /* Build configuration list for PBXNativeTarget "FlowerLand (pet)" */;
 			buildPhases = (
+				32247665FD86C787BCE1E796 /* [CP] Check Pods Manifest.lock */,
 				1A8F2F2D29CBB77B005F1ADC /* Sources */,
 				1A8F2F2E29CBB77B005F1ADC /* Frameworks */,
 				1A8F2F2F29CBB77B005F1ADC /* Resources */,
+				3DD2CFA60C83F1D767D50F1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,12 +205,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A8F2F3C29CBB77E005F1ADC /* Preview Assets.xcassets in Resources */,
+				1AFC0E8829E2340600F7FACC /* GoogleService-Info.plist in Resources */,
 				1A8F2F3929CBB77E005F1ADC /* Assets.xcassets in Resources */,
 				1A8F2F4729CBB8EC005F1ADC /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32247665FD86C787BCE1E796 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlowerLand (pet)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD2CFA60C83F1D767D50F1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlowerLand (pet)/Pods-FlowerLand (pet)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlowerLand (pet)/Pods-FlowerLand (pet)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlowerLand (pet)/Pods-FlowerLand (pet)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A8F2F2D29CBB77B005F1ADC /* Sources */ = {
@@ -317,6 +389,7 @@
 		};
 		1A8F2F4029CBB77E005F1ADC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4705D616BB61485B5E7D19E /* Pods-FlowerLand (pet).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -346,6 +419,7 @@
 		};
 		1A8F2F4129CBB77E005F1ADC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010CA156EF00517FF739CAB1 /* Pods-FlowerLand (pet).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
