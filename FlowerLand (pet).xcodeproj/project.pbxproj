@@ -55,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				1A8F2F3329CBB77B005F1ADC /* FlowerLand (pet) */,
-				1AFC0E8929E2378E00F7FACC /* GoogleService-Info.plist */,
 				1A8F2F3229CBB77B005F1ADC /* Products */,
 				1D3C8065132BB614F15A77CF /* Pods */,
 				B086E4CE445B95515599B49A /* Frameworks */,
@@ -79,6 +78,7 @@
 				1A8F2F4429CBB7CE005F1ADC /* Models */,
 				1A8F2F4529CBB7D4005F1ADC /* Data */,
 				1A8F2F3829CBB77E005F1ADC /* Assets.xcassets */,
+				1AFC0E8929E2378E00F7FACC /* GoogleService-Info.plist */,
 				1A8F2F3A29CBB77E005F1ADC /* Preview Content */,
 			);
 			path = "FlowerLand (pet)";
